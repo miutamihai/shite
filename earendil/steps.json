@@ -1,0 +1,17 @@
+{
+    "config": {
+      "pem": "./key.pem",
+      "proxy": "https://testnet-api.elrond.com",
+      "chain": "T"
+    },
+    "steps": [
+      {
+        "type": "deploy",
+        "options": {
+          "path": "../",
+          "delay": 10000,
+          "gas_limit": 600000000
+        }
+      }
+    ]
+  }
