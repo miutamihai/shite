@@ -9,6 +9,7 @@
         "type": "deploy",
         "options": {
           "path": "../",
+          "arguments": "0",
           "delay": 10000,
           "gas_limit": 600000000
         }
